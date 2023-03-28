@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<form action="Form Biodata" method="post">
+
+<h1 style="font-size: 15px;" align ="center">Form Biodata</h1>
+<table>
+    <tr>
+        <td width="360px">Nim</td><td width="28px">:</td>
+        <td><input type="text" name="txtnim"></td>
+    </tr>
+    <br>
+    <tr>
+        <td>Nama</td><td>:</td>
+        <td><input type="text" name="txtnama"></td>
+    </tr>
+    <br>
+    <tr>
+        <td>Jenis Kelamin</td><td>:</td>
+        <td><input type="radio" name="rbjeniselamin" value="P" checked>Pria</td>
+        <td><input type="radio" name="rbjeniselamin" value="W" >Wanita</td>
+    </tr>
+
+    <tr>
+        <td>Jurusan</td><td>:</td>
+        <td><select name="lsJurusan">Pilih...
+        <option value="">Pilihan...</option>
+        <option value="D3RPL">D3RPL</option>
+        <option value="S1TI">S1TI</option>
+        <option value="S1FARMASI">S1FARMASI</option>
+    </tr>
+    
+    <td>HOBBY</td><td>:</td>
+    <td><input type="checkbox" name="chkhobby" value="Komputer">Komputer
+        <input type="checkbox" name="chkhobby" value="Musik">Musik
+        <input type="checkbox" name="chkhobby" value="Olahraga">Olahraga
+        <input type="checkbox" name="chkhobby" value="Travelling">Travelling
+      </td>
+    <tr>
+        <td>Catatan</td><td>:</td>
+        <td><textarea name="textcatatan" cols="30" rows="5"></textarea></td>
+    </tr>
+    <tr>
+        <td>Foto</td><td>:</td>
+        <td><input type="file"> </td>
+    </tr>   
+    <tr>
+        <td>EMAIL</td><td>:</td>
+        <td><input type="text" name="txtEmail"></td>
+    </tr>
+    <tr>
+        <td>SANDI LOGIN</td><td>:</td>
+        <td><input type="password" name="tntsandi"></td>
+    </tr>    
+    <tr>
+        <td>ULANGI SANDI LOGIN</td><td>:</td>
+        <td><input type="password" name="tntsandi" size="15" maxlength="12"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td><input type="submit" name="btnsimpan" value="Simpan">
+            <input type="Reset" name="btnreset" value="Batal">
+            <button type= "button" name="btnpringatan">pringatan </button></td>
+    </tr>
+</table>    
+
+</body>
+</html>
